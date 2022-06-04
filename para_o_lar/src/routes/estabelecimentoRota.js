@@ -1,5 +1,5 @@
 const express = require('express')
-const controller = require('../controllers/estabelecimentoController')
+const controller = require('../controller/estabelecimentoController')
 const router = express.Router()
 router.get('/membros', controller.findAllMembers);
 router.get("/nome", controller.findOneByName)
